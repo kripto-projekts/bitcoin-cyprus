@@ -1,0 +1,75 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1f1f1f;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Abril Fatface", serif;
+}
+
+#container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.slide {
+  position: relative;
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 1s;
+}
+.slide.last-viewed .btn-close:after {
+  transition-delay: 0s;
+}
+.slide.last-viewed .btn-close:before {
+  transition-delay: 0.1s;
+}
+.slide.last-viewed .content .city-info {
+  transition-delay: 0s;
+}
+.slide.last-viewed .content .city-info li:nth-of-type(1) {
+  transition-delay: 0.2s;
+}
+.slide.last-viewed .content .city-info li:nth-of-type(2) {
+  transition-delay: 0.4s;
+  
+  
+  //mob
+
+body { 
+  font-family: Avenir, sans-serif; margin: 0; 
+  background-color: #121;
+}
+div#quad { 
+  background-color: #000; 
+  font-size: 0; width: 60%; 
+  margin: 0 auto;
+  box-shadow: 0 0 12px rgba(0,0,0,0.8);
+}
+div#quad figure { 
+  margin: 0; width: 50%; 
+  height: auto; transition: 1s; 
+  display: inline-block; 
+  position: relative; overflow: hidden; 
+}
+div#quad figure:hover { cursor: pointer; z-index: 4; }
+div#quad figure img { width: 100%; height: auto; }
+div#quad figure:nth-child(1) { transform-origin: top left; }
+div#quad figure:nth-child(2) { transform-origin: top right; }
+div#quad figure:nth-child(3) { transform-origin: bottom left; }
+div#quad figure:nth-child(4) { transform-origin: bottom right; }
+div#quad figure figcaption { 
+  margin: 0; opacity: 0; 
+  background: rgba(0,0,0,0.3); 
+  color: #fff; padding: .3rem; 
