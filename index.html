@@ -15,7 +15,20 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/media-query.css" rel="stylesheet">
-    
+    <style>
+        #hero{
+            position:absolute;
+            overflow:hidden;
+            width:100%;
+            height:520px;
+        }
+        #hero canvas{
+            position:absolute; 
+            top:0;
+             left:0;
+              z-index:-1;
+        }
+    </style>
 </head>
 
 <body>
@@ -41,7 +54,7 @@
                 </div>
                 <div id="menu" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-left">
-                        <li class="active home"><a href="#main-slider"> Home</a></li>
+                        <li class="active home"><a href="#"> Home</a></li>
                         <li class="about"><a href="#about-wrapper">About</a></li>
                         <li class="location"><a href="#location-wrapper">Find us</a></li>
                         <li class="contact"><a href="#contact-wrapper">Contact us</a></li>
@@ -56,9 +69,17 @@
 
 <div id="body-wrapper">
 
+    <div id="hero-wrapper">
+    <div id="hero">
+     <canvas width="600" height="832" style="width:375px;height:50px;" ></canvas>  
+     </div>
+</div>
+    
+
+
 
 <div id="about-wrapper">
-    <div id="abouts">
+    <div id="about">
         <div class="inner-wrapper">
 			<div class="container">
 				<h2>Check out our <span>abouts</span></h2>
@@ -168,187 +189,48 @@
                     <h2>Check out our <span>location</span></h2>
 
                     <div class="row">
-                        <div class="col-md-12 col-xs-12">
-                            <div id="location-container">
-                                <ul id="location-items">
-                                    <li class="location-item">
-                                        <div>
-                                            <img class="img-responsive" src="images/location/1.png" alt="">
-
-                                            <div class="location-item-description">
-                                                <div>
-                                                    <a data-linktype="modal" data-modalclass="location-style"
-                                                       href="location1.html"
-                                                       class="fa fa-info rounded"></a>
-
-                                                    <h3>consect adipisi elit</h3>
-
-                                                    <p class="project-tag">Design, Develop</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="location-item">
-                                        <div>
-                                            <img class="img-responsive" src="images/location/2.png" alt="">
-
-                                            <div class="location-item-description">
-                                                <div>
-                                                    <a data-linktype="modal" data-modalclass="location-style"
-                                                       href="location1.html"
-                                                       class="fa fa-check rounded"></a>
-
-                                                    <h3>consect adipisi elit</h3>
-
-                                                    <p class="project-tag">Design, Develop</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="location-item">
-                                        <div>
-                                            <img class="img-responsive" src="images/location/3.png" alt="">
-
-                                            <div class="location-item-description">
-                                                <div>
-                                                    <a data-linktype="modal" data-modalclass="location-style"
-                                                       href="location1.html"
-                                                       class="fa fa-cog rounded"></a>
-
-                                                    <h3>consect adipisi elit</h3>
-
-                                                    <p class="project-tag">Design, Develop</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="location-item">
-                                        <div>
-                                            <img class="img-responsive" src="images/location/4.png" alt="">
-
-                                            <div class="location-item-description">
-                                                <div>
-                                                    <a data-linktype="modal" data-modalclass="location-style"
-                                                       href="location1.html"
-                                                       class="fa fa-pencil rounded"></a>
-
-                                                    <h3>consect adipisi elit</h3>
-
-                                                    <p class="project-tag">Design, Develop</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="location-item">
-                                        <div>
-                                            <img class="img-responsive" src="images/location/5.png" alt="">
-
-                                            <div class="location-item-description">
-                                                <div>
-                                                    <a data-linktype="modal" data-modalclass="location-style"
-                                                       href="location1.html"
-                                                       class="fa fa-rocket rounded"></a>
-
-                                                    <h3>consect adipisi elit</h3>
-
-                                                    <p class="project-tag">Design, Develop</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="location-item">
-                                        <div>
-                                            <img class="img-responsive" src="images/location/4.png" alt="">
-
-                                            <div class="location-item-description">
-                                                <div>
-                                                    <a data-linktype="modal" data-modalclass="location-style"
-                                                       href="location1.html"
-                                                       class="fa fa fa-thumbs-o-up rounded"></a>
-
-                                                    <h3>consect adipisi elit</h3>
-
-                                                    <p class="project-tag">Design, Develop</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="location-item">
-                                        <div>
-                                            <img class="img-responsive" src="images/location/3.png" alt="">
-
-                                            <div class="location-item-description">
-                                                <div>
-                                                    <a data-linktype="modal" data-modalclass="location-style"
-                                                       href="location1.html"
-                                                       class="fa fa-info rounded"></a>
-
-                                                    <h3>consect adipisi elit</h3>
-
-                                                    <p class="project-tag">Design, Develop</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="location-item">
-                                        <div>
-                                            <img class="img-responsive" src="images/location/2.png" alt="">
-
-                                            <div class="location-item-description">
-                                                <div>
-                                                    <a data-linktype="modal" data-modalclass="location-style"
-                                                       href="location1.html"
-                                                       class="fa fa-wrench rounded"></a>
-
-                                                    <h3>consect adipisi elit</h3>
-
-                                                    <p class="project-tag">Design, Develop</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="location-item">
-                                        <div>
-                                            <img class="img-responsive" src="images/location/1.png" alt="">
-
-                                            <div class="location-item-description">
-                                                <div>
-                                                    <a data-linktype="modal" data-modalclass="location-style"
-                                                       href="location1.html"
-                                                       class="fa fa-magic rounded"></a>
-
-                                                    <h3>consect adipisi elit</h3>
-
-                                                    <p class="project-tag">Design, Develop</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="location-item">
-                                        <div>
-                                            <img class="img-responsive" src="images/location/2.png" alt="">
-
-                                            <div class="location-item-description">
-                                                <div>
-                                                    <a data-linktype="modal" data-modalclass="location-style"
-                                                       href="location1.html"
-                                                       class="fa fa-info rounded"></a>
-
-                                                    <h3>consect adipisi elit</h3>
-
-                                                    <p class="project-tag">Design, Develop</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
+                        <div id="gallery">
+                            <div class="slide anim-in">
+                              <div class="image" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/venice.jpg);"></div>
+                              <div class="overlay"></div>
+                              <div class="content">
+                                <h1 class="title" data-title="Venice">Venice</h1>
+                                <div class="emblem" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/italian-emblem.svg);"></div>
+                                <ul class="city-info">
+                                  <li class="country">Country: Italy</li>
+                                  <li class="founded">Founded: 697</li>
+                                  <li class="population">Population: 260,060</li>
                                 </ul>
-                                <div class="clearfix"></div>
+                              </div>
+                              <div class="btn-close"></div>
                             </div>
-                            <div class="location-directions">
-                                <span class="prev-items rounded"><i class="fa fa-angle-left"></i></span>
-                                <span class="next-items rounded"><i class="fa fa-angle-right"></i></span>
+                            <div class="slide anim-in">
+                              <div class="image" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/paris.jpg);"></div>
+                              <div class="overlay"></div>
+                              <div class="content">
+                                <h1 class="title" data-title="Paris">Paris</h1>
+                                <div class="emblem" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/french-emblem.svg);"></div>
+                                <ul class="city-info">
+                                  <li class="country">Country: France</li>
+                                  <li class="founded">Founded: ~250BC</li>
+                                  <li class="population">Population: 2.2 Million</li>
+                                </ul>
+                              </div>
+                              <div class="btn-close"></div>
                             </div>
-                        </div>
+                            <div class="slide anim-in">
+                              <div class="image" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/salzburg.jpg);"></div>
+                              <div class="overlay"></div>
+                              <div class="content">
+                                <h1 class="title" data-title="Salzburg">Salzburg</h1>
+                                <div class="emblem" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/austrian-emblem.svg);"></div>
+                                <ul class="city-info">
+                                  </ul>
+                                  </div>
+                          
+                                  </div>
+                                  </div>       
+
                     </div>
                 </div>
             </div>
