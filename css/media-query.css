@@ -19,7 +19,7 @@ Mobile landscape
     }
 	.left-top-fold h2{width: 80%;margin-left: 30%;}
 	.right-top-fold h2{width: 70%;margin-right: 30%;}
-	.service-box p{font-size:14px;}
+	.about-box p{font-size:14px;}
 	
 }
 
@@ -134,7 +134,7 @@ Mobile landscape
         float : none;
     }
 
-    .portfolio-container .bx-wrapper,
+    .location-container .bx-wrapper,
     #team-wrapper .bx-wrapper {
         width     : 455px;
         max-width : 455px !important;
@@ -167,12 +167,7 @@ Mobile landscape
     }*/
 
     .social-shares li i,
-    .team-item-description .social-shares li i {
-        font-size   : 20px;
-        height      : 34px;
-        width       : 34px;
-        line-height : 34px;
-    }
+    
 
     .navbar-wrapper .container {
         left : -220px;
