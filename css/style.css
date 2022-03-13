@@ -61,28 +61,7 @@ a, a:hover {
     text-decoration : none;
 }
 
-.rounded {
-    border        : 5px solid #ffffff;
-    border-radius : 50%;
-    display       : inline-block;
-    text-align    : center;
-    margin        : 0 10px;
-    cursor        : pointer;
-}
 
-.rounded:hover {
-    border : 5px dashed #ffffff;
-}
-
-.rounded i {
-    font-size              : 3em;
-    font-weight            : bold;
-    color                  : #ffffff;
-    padding                : 10px;
-    width                  : 70px;
-    height                 : 70px;
-    -webkit-font-smoothing : antialiased;
-}
 
 
 

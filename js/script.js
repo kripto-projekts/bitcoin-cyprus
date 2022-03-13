@@ -78,13 +78,7 @@ jQuery(function ($) {
         });
 
         $('#menu-wrapper').removeClass('sticky-menu');
-        $(window).on('scroll', function () {
-            if ($(document).scrollTop() > 150) {
-                $('#menu-wrapper').addClass('sticky-menu');
-            } else {
-                $('#menu-wrapper').removeClass('sticky-menu');
-            }
-        });
+        
 
     }());
 
